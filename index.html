@@ -1,101 +1,221 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <title>Nikita Grivitsky</title> 
-    <link rel="stylesheet" href="./source/css/main.css"> 
-    <script src="./source/js/jquery-3.0.0.min.js"></script> 
-    <script src="./source/js/functions.js"></script>
-</head>
-<body data-pinterest-extension-installed="cr1.39.1">
-    <header class="site-header"> 
-        <div class="wrapper">
-            <a class="site-title collapsed" href="#" title="Back to home" style="text-color: ">
-                <span>N<span class="collapse"><i>i</i><i>k</i><i>i</i><i>t</i><i>a</i></span>.</span>
+	<head>
+        <meta charset="utf-8">        
+        <meta name="author" content="CHANGE-ME">
+        <meta name="description" content="CHANGE-ME">
+        
+        <!-- Mobile Stuff -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="msapplication-tap-highlight" content="no">
+        
+        <!-- Chrome on Android -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="CHANGE-ME">
+        <link rel="icon" sizes="192x192" href="image/touch/chrome-touch-icon.png">
+        
+        <!-- Safari on iOS -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="CHANGE-ME">
+        <link rel="apple-touch-icon" href="image/touch/apple-touch-icon.png">
+        
+        <!-- Windows 8 -->
+        <meta name="msapplication-TileImage" content="image/touch/ms-touch-icon.png">
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+        
+        
+        <meta name="theme-color" content="#000000">
+        
+        <link rel="shortcut icon" href="favicon.ico">
+        
+        <title>Grivitsky Nikita</title>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="style1.css">
+        
+    </head>
+
+    <body>    
+        <!-- Insert your HTML here -->
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+              <span class="hamburger" onclick="closeNav()">
+                х
+            </span>
             </a>
-            <a href="mailto:nikita98.19.23@gmail.com">
-                <div class="contact--button">
-                    <img class="airplane" src="./source/svg/contact_icon.svg"> 
-                </div>
-            </a>
+            <div class="cntr">
+          <a href="index.html">Домашнаяя</a>
+          <a href="portfolio.html">Портфолио</a>
+          <a href="profile.html">Обо мне</a>
+          <a href="#">Блог</a>
+          </div>
         </div>
-    </header>
-    
-    <div class="project--hero home">
-        <div class="center--home"> 
-            <div class="project--details"> 
-                <h1 class="rotated--heading">About Me</h1> 
-                <div class="project--header"> 
-                    <h1 class="project--title">Nikita Grivitsky</h1> 
+
+        
+        
+        <div class="container">
+          
+           <div class="row mar-50">
+            <a href="index.html" class="name">Nikita Grivitsky</a>
+            <span class="hamburger" onclick="openNav()">
+                <div class="h_border b2"></div>
+                <div class="h_border b1"></div>
+                <div class="h_border b2"></div>
+            </span>
+            </div>
+        
+        <div class="mid">
+           <a href="profile.html">
+            <img src="image/i.jpg" class="avatar">
+            </a>
+            <div class="a_name">Никита Гривицкий</div>
+            <div class="a_spec">Ui/Ux Designer</div>
+        </div>
+        
+        <div class="row mar-top">
+        <div class="col-6">
+          <div class="zag">Обо мне</div>
+          <div class="line"></div>
+          <div class="text">Привет, меня зовут Никита. Я независимый дизайнер из Минска.
+                            Я занимаюсь дизайном веб-сайтов и мобильных приложений для стартапов и предпренимателей,
+                            которые ценят и понимают важность хорошего, осмысленного дизайна. Ведь это не просто красивые картинки.
+                           
+                             <br><br>Также я занимаюсь фотографией, поэтому в свободное время вы можете менять увидеть с фотоаппаратом в руках.
+          </div>
+        </div>
+        <div class="col-5-r">
+            <div class="zag mar-top790">Контакты</div>
+          <div class="line"></div>
+            <div class="text">
+            <div class="col-5">
+            Email:
+            <div class="mar-top-xz"><a href="mailto:griwitsky@gmail.com?" class="ml gray ">griwitsky@gmail.com</a></div>
+            <div class="mar-top-xz2">Vk:</div>
+            <div class="mar-top-xz"><a href="https://new.vk.com/grivitsky1" class="ml gray ">@grivitsky1</a></div>
+            </div>
+            <div class="col-5"><div class="mar-l-xz">Instagram:
+             <div class="mar-top-xz"><a href="https://www.instagram.com/grivitsky" class="ml gray ">@grivitsky</a></div></div>
+             </div>
+              </div>
+        </div>
+        </div>
+        
+        <div class="row mar-top">
+           <div class="col-12">
+            <div class="zag">Подборка работ</div>
+            <div class="line"></div>
+            <a href="a_svnt.html" class="work col5 w_bg_svnt">
+                <div class="info">
+                    <div class="tittle">ServeInTime</div>
+                    <div class="line"></div>
+                    <div class="description">Разработка карты приложения и создание дизайна для белорусского стартапа в сфере питания.</div>
                 </div>
-                <div class="project--subheader"> 
-                    <h3 class="project--subtitle left">UI/UX Designer</h3> 
+            </a>
+            <a href="pokemon.html" class="work col5-r w_bg_poke">
+                <div class="info">
+                    <div class="tittle">Стикеры "Pokemon's"</div>
+                    <div class="line"></div>
+                    <div class="description">Отрисовка персонажей из "Pokemon". Иллюстрация персонажей для последующией печати.</div>
                 </div>
-                <div class="project--description"> 
-                    <p class="description">
-                    Hi! I'm User Interface and User Experience designer from Minsk, Belarus.<br><br> I'm studying web-design and web-development at Belarusian State Technological University. By doing this study and these jobs I've become experienced in designing web, app and print solutions.<br><br> While designing solutions I strive to deliver the highest quality possible! To accomplish this I'm using my skills in Photoshop, Illustrator, CSS3, HTML5 and Javascript. 
-                    <br><br>If you think that we can make great project together, contact me.
-                    </p>
+            </a>
+            <a href="#" class="work col5 w_bg_3">
+                <div class="info">
+                    <div class="tittle">Сайт Honig Photo</div>
+                    <div class="line"></div>
+                    <div class="description">Дизайн сайта немецкого фотографа, занимающегося детской фотосъемкой. Ведь хорошим фотографиям нужен и хороший сайт!</div>
+                </div>
+            </a>
+            <a href="#" class="work col5-r w_bg_4">
+                <div class="info">
+                    <div class="tittle">Сайт портфолио для дизайнера</div>
+                    <div class="line"></div>
+                    <div class="description">Разработка минималистичного сайта портфолио для веб-дизайнера.</div>
+                </div>
+            </a>
+            </div>
+        </div>
+        
+        <div class="row mar-top">
+            <div class="col-12">
+                <div class="zag">Навыки</div>
+                <div class="line dopmarg"></div>
+                <div class="mid_circle">
+                <div class="cont_circle">
+                <img class="circle" src="image/web.png">
+                <div class="spec_name">Веб-дизайн</div>
+                </div>
+                <div class="cont_circle">
+                <img class="circle" src="image/ux.png">
+                <div class="spec_name">User Experience</div>
+                </div>
+                <div class="cont_circle">
+                <img class="circle" src="image/dev.png">
+                <div class="spec_name">Веб-разработка</div>
+                </div>
                 </div>
             </div>
         </div>
-        <img id="scrolldown" src="./source/svg/next_arrow.svg" style="opacity: 1;">
-    </div>
-    
-    <div class="selectedwork"> 
-        <h1 class="rotated--heading">Selected Work.</h1> 
-        <ul class="selectedwork--list"> 
-            <a class="selectedwork--link" href="./source/html/work-SINT.html" data-type="page-transition"> 
-                <li style="opacity: 0; transform: translateX(-50px);"> 
-                    <div class="selectedwork--left"> 
-                        <h4 class="selectedwork--title">ServeInTime</h4> 
-                        <p class="selectedwork--subtitle">UX/UI Designer</p>
-                    </div>
-                    <div class="selectedwork--right"> 
-                        <img class="selectedwork--chevron" src="./source/svg/list_chevron.svg"> 
-                    </div>
-                </li>
-            </a> 
-            <a class="selectedwork--link" href="./source/html/work-SHA.html" data-type="page-transition"> 
-                <li style="opacity: 0; transform: translateX(-50px);"> 
-                    <div class="selectedwork--left"> 
-                        <h4 class="selectedwork--title">Smart Home Application</h4> 
-                        <p class="selectedwork--subtitle">UX/UI Designer</p>
-                    </div>
-                    <div class="selectedwork--right"> 
-                        <img class="selectedwork--chevron" src="./source/svg/list_chevron.svg"> 
-                    </div>
-                </li>
-            </a> 
-        </ul>
-    </div>
-    
-    <footer class="site-footer"> 
-        <div class="wrapper"> 
-            <ul class="footerlinks"> 
-                <li>
-                    <a href="#">Nikita Grivistky</a>
-                </li>
-                <li>
-                    <a class="footer__link" href="mailto:nikita98.19.23@gmail.com">Email</a>
-                </li>
-                <li>
-                    <a href="#" target="_blank">Dribbble</a>
-                </li>
-                <li>
-                    <a href="#" target="_blank">Twitter</a>
-                </li>
-                <li>
-                    <a href="#" target="_blank">Facebook</a>
-                </li>
-            </ul> 
+        
+        <div class="row mar-50">
+        <div class="col-6 dnon">
+        <div class="l95">Photoshop/Illustrator<span class="right">95%</span></div>
+        <div class="l70">HTML5/CSS3<span class="right">70%</span></div>
+        <div class="l77">Адаптивный дизайн<span class="right">77%</span></div>
+        <div class="l55">JavaScript<span class="right">55%</span></div>
+        <div class="l68">UX-проектирование<span class="right">68%</span></div>
         </div>
-    </footer>
-    
-    <script type="text/javascript" src="./source/js/jquery.waypoints.min.js"></script>
-    <script type="text/javascript" src="./source/js/slick.min.js"></script>
-    
+        <div class="col-5-r text mar-50 mar-bot150">
+           Мне важно находиться в курсе последних тенденций мирового дизайна и IT-сферы, для создания наиболее подходящего, современного и осмысленного дизайна. Я всегда рад сотрудничеству.
+        </div>
+        </div>
+        
+        <div class="row">
+           <div class="col-12 mar-top145 ">
+           <div class="center">
+            <div class="hey">Давайте работать вместе!</div>
+            <div class="blueline"></div>
+            <a href="mailto:griwitsky@gmail.com?" class="ml"><div class="mail">griwitsky@gmail.com</div></a>
+            </div>
+            </div>
+        </div>
+            </div>
+            
+        <div class="widthblue col-12-b ">
+            <div class="container mar-50">
+               <div class="icon_cont">
+                <a class="icon mar-i-1" href="https://www.facebook.com/grivitsky" title="facebook">
+                   <img src="image/fb.svg" class="img_center">
+                </a>
+                <a class="icon mar-i-1" href="https://www.instagram.com/grivitsky/" title="instagram">
+                   <img src="image/insta.svg">
+                </a>
+                <a class="icon mar-i-1" href="https://new.vk.com/grivitsky1" title="vk">
+                   <img src="image/vk.svg">
+                </a>
+                <a class="icon mar-i-1 none803" href="https://www.behance.net/grivitsky" title="behance">
+                   <img src="image/behance.svg">
+                </a>
+                <a class="icon  mar-i-1" href="https://dribbble.com/grivitsky" title="dribbble">
+                   <img src="image/dribbble.svg">
+                </a>
+            </div>
+            </div>
+        </div>
+        
+        
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script>
+        /* Open the sidenav */
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "100%";
+            }
+
+            /* Close/hide the sidenav */
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
     </body>
-    </html>
+</html>
